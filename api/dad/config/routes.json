@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dad",
+      "handler": "dad.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dad",
+      "handler": "dad.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dad",
+      "handler": "dad.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
